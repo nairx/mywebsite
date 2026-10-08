@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (local dependencies)
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets (Never commit these!)
+.env
+*.env
+local_settings.py
+
+# Databases (Keep local data local)
+*.sqlite3
+db.sqlite3
+
+# Django collected static files & user-uploaded media
+static/
+staticfiles/
+static_root/
+media/
+
+# Log files
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
